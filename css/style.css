@@ -1,0 +1,15 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+.modal {
+  padding: 1em;
+  /* constraint the width */
+  border: 0;
+  box-shadow: 0 0 1em rgb(0 0 0 / 0.3);
+  max-width: 50ch;
+}
+.modal::backdrop {
+  background: rgb(0 0 0 / 0.7);
+}

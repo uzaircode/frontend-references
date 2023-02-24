@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Modal CSS</title>
+  </head>
+  <body>
+    <button class="button open-button">Open modal</button>
+
+    <dialog class="modal" id="modal">
+      <h2>An interesting title</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo doloribus
+        fuga, reprehenderit totam quibusdam praesentium? Dolorum aut veritatis,
+        dolorem corporis consequuntur in a dicta! Exercitationem expedita rerum
+        molestias autem ipsum.
+      </p>
+      <button class="button close-button">Close modal</button>
+      <form action="form" method="dialog">
+        <label>Name : <input type="text" /></label>
+        <label>password : <input type="text" /></label>
+        <button class="button" type="submit">Submit form</button>
+      </form>
+    </dialog>
+  </body>
+  <script src="main.js"></script>
+</html>
