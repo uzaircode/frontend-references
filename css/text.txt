@@ -1,0 +1,21 @@
+# Version Control
+
+- Git -> local
+- Github -> remote
+
+Commit (save in local) -> Push (send to remote) -> Pull request
+
+git commit
+git push
+
+# Keywords
+- Local
+- Remote
+- Repository
+- Commit
+- Push
+- Rebase
+- Pull Request
+- Git flow
+- Branches
+
