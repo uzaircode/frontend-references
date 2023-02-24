@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 } */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  min-height: 200vh;
+}
+
 .modal {
   padding: 1em;
   /* constraint the width */
@@ -10,6 +17,36 @@
   box-shadow: 0 0 1em rgb(0 0 0 / 0.3);
   max-width: 50ch;
 }
+
 .modal::backdrop {
   background: rgb(0 0 0 / 0.7);
+}
+
+.outer-container {
+  border: 3px dashed #000;
+  width: 75vw;
+  height: 85vh;
+  margin: 40px auto;
+}
+
+.inner-container {
+  border: 2px solid #00f;
+  width: 40vw;
+  height: 50vh;
+  margin: 200px auto;
+  position: relative;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  color: #fff;
+  padding: 1rem;
+}
+
+.absolute {
+  background-color: #00f;
+  position: absolute;
+  top: -20px;
+  left: -20px;
 }
